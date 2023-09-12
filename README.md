@@ -10,14 +10,14 @@
 
 ### RSSHub路由制作
 > 使用RSSHub创建RSS路由，[乐山师范学院教学部通知公告](http://jiaowc.lsnu.edu.cn/tzgg.htm)，RSS2.0
-复制对应部分源代码
-文章全文链接
-文章详情页对应部分源代码
-
-参考下面例子创建route.js，maintainer.js，radar.js，请注意我的GitHub名为nyaShine
-
-router.js
-module.exports = (router) => {
+> 复制对应部分源代码
+> 文章全文链接
+> 文章详情页对应部分源代码
+> 
+> 参考下面例子创建route.js，maintainer.js，radar.js，请注意我的GitHub名为nyaShine
+> 
+> router.js
+> module.exports = (router) => {
     router.get('/issue/:user/:repo?', require('./issue'));
 };
 
